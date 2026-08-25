@@ -1,0 +1,9 @@
+# Ignorar archivos temporales de readme
+.readme
+*.readme
+
+# Sistema y logs
+.DS_Store
+*.log
+.vscode/
+.idea/
