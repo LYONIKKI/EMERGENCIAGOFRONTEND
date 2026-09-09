@@ -40,25 +40,25 @@ Copyright (c) 2026 Ing. Anhgelo Smith Vega Poma (CIP N° 381913). Todos los dere
 
 Uso restringido a exhibición de portafolio y evaluación técnica.
 
+📸 Evidencias del Proyecto
+Nota de confidencialidad y ética: Las capturas de pantalla de este proyecto han sido difuminadas para proteger la confidencialidad de la información médica de los pacientes y los sistemas de la entidad pública, cumpliendo con la normativa vigente sobre el manejo de datos personales.
 
-                                          ********========================******
-                                          ********* ======EVIDENCIAS===== ******
-                                          ********========================******
+📊 Módulo de Emergencias & Dashboard
+Dashboard Estadístico: Visualización de métricas clave (KPIs) sobre el volumen de atenciones por día/mes y la demanda por servicio de emergencia.
 
-POR ÚLTIMO LAS EVIDENCIAS DEL PROYECTO LAS DEJO EN LA CARPETA IMAGENES DIFUMINADAS PARA QUE SE RESPETE LA DATA REAL YA QUE
-AL PERTENECER A UNA ENTIDAD NACIONAL LA DATA DE LOS PACIENTES ES CONFIDENCIAL Y NO SE ES POSIBLE MOSTRARLAS PARA VALIDAR MI CAPACIDAD DE ARQUITECTURA
-DE SOFTWARE
-*EN EL DASHBORAD SE MUESTRA LA CANTIDAD DE USUARIOS REGISTRADOS EN EL MES, UN FILTRO PARA CADA MES KPIS PARA VER QUE SERVICIO DE EMERGENCIA HACE MÁS ATENCIONES
-POR DÍA Y MES
-* EN ATENCIONES HOY SE JALA EN UNA TABLA POR HORA DE INGRESO AL PACIENTE Y SE MUESTRA DE MANERA DIDACTICA EL SERVICIO Y TIPO DE SEGURO Y SE EMPLEA LA FUNCIONALIDAD PARA IMPRIMIR UN TICKET
-* EL TICKET IMPRESO SE DA DE ACUERDO A LAS NORMATIVAS DE SuSalud MANTENIENDO EL DERECHO A LA INFORMACIÓN DEL PACIENTE
-* EL HISTORIAL DE ATENCIONES SIRVE PARA VOLVER A IMPRIMIR EL TICKET CON LA FINALIDAD DE QUE SE IMPRIMA OTRA VEZ EL NUMERO DE CUENTA POR SI EL USUARIO LO PIERDA; SE JALA LA DATA DE HASTA 2 MESES POR SI SE NECESITA
-* LA PARTE DE EXPORTAR REPORTES SE HACE CON LA FINALIDAD DE VER LA PRODUCCÓN DEL NUMERO DE PACIENTES OBSERVADOS
-POR LA PARTE DE ARCHIVOS PARA VER LAS HISTORIAS CLÍNICAS Y EL FLUJO
-LOS MÓDULOS
-* HISTORIAS CLINICAS SE BASA EN REALIZAR EL FLUJO DE SALIDAS Y ENTREGAS DE LAS HISTORIAS CLÍNICAS QUE SALEN A DIARIO A CONSULTA EXTERNA
-* LOCALIZADOR / CUSTODIA ESTE MODULO SIRVE PARA CAPTURAR EL LUGAR EN DONDE SE HA GUARDADO LA HISTORIA CLINICA O DONDE SE HA DEJADO
-* Y POR ULTIMO ACTUALIZAR HISTORIAS CLINICAS SIRVE PARA ACTUALIZAR MEDIANTE LA APP EL NUMERO DE HISTORIA CLINICA PARA QUE NO SE USE LA BASE DE DATOS COMO SYSADMIN SINO QUE SE DEJA EN MANOS DE LA GENTE QUE TRABAJA CON ESTOS ARCHIVOS LEGALES A DIARIO
+Atenciones Hoy: Monitoreo en tiempo real de ingresos por hora, tipo de seguro y servicio asignado.
 
+Módulo de Ticketera: Generación e impresión de comprobantes de atención adaptados a la normativa de SuSalud para garantizar el derecho a la información del paciente.
+
+Historial de Atenciones: Permite la re-impresión de tickets (recuperación de número de cuenta en caso de pérdida) con un histórico de hasta 2 meses de datos.
+
+Exportación de Reportes: Módulo enfocado en la generación de reportes de producción de pacientes en observación.
+
+📁 Gestión de Historias Clínicas (Archivo Central)
+Pre-despacho y Custodia: Control del flujo diario de salida y entrega de expedientes clínicos hacia Consulta Externa.
+
+Localizador y Trazabilidad: Seguimiento en tiempo real de la ubicación física y estado de préstamo de cada historia clínica.
+
+Gestión Autónoma de Registros: Interfaz para que el personal administrativo actualice los números de historia clínica de forma segura, eliminando la necesidad de consultas manuales a la base de datos por parte de administradores de sistemas.
 
 
